@@ -36,6 +36,9 @@
       "git add"
     ]
   },
+  "pre-commit": [
+    "lint-staged"
+  ],
   "devDependencies": {
     "babel-eslint": "^8.0.1",
     "eslint": "^4.8.0",
