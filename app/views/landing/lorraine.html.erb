@@ -1,5 +1,5 @@
 <!-- ========== HEADER ========== -->
-<header id="header" class="u-header u-header--abs-top-md u-header--bg-transparent u-header--show-hide-md"
+<%# <header id="header" class="u-header u-header--abs-top-md u-header--bg-transparent u-header--show-hide-md"
         data-header-fix-moment="500"
         data-header-fix-effect="slide">
   <div class="u-header__section">
@@ -15,31 +15,41 @@
       <!-- End Nav -->
     </div>
   </div>
-</header>
+</header> %>
 <!-- ========== END HEADER ========== -->
 <!-- ========== MAIN ========== -->
 <main id="content" role="main">
+  <div class="position-relative u-bg-light-blue-50">
+    <div class="container">
+      <div class="align-items-center u-space-2-top text-center">
+        <!-- Logo -->
+        <a class="u-header__navbar-brand" href="../home/index.html" aria-label="Front">
+          <img src="../../assets/svg/logos/logo.svg" alt="Logo">
+        </a>
+      </div>
+    </div>
+    <!-- End Logo -->
+  </div>
   <!-- Hero Section -->
   <div class="position-relative u-bg-light-blue-50">
     <div class="u-bg-img-hero" style="background-image: url(../../assets/img/bg-shapes/bg3.png);">
       <div class="container">
         <!-- Hero Carousel -->
-        <div class="align-items-center u-space-4 u-space-0--lg min-height-100vh--lg">
+        <div class="align-items-center u-space-3 min-height-100vh--lg">
           <div>
-            <!-- Slide #2 -->
-            <div class="text-center u-space-2-top w-lg-60 mx-auto">
+            <div class="text-center u-space-2-top w-lg-70 mx-auto">
               <div class="mb-7">
                 <h2 class="display-3 font-size-48--md-down text-primary font-weight-bold">Loop redonne le sourire à vos candidats malheureux</h2>
                 <p class="lead">Loop vous permet de rediriger et valoriser tous les candidats à la franchise<br>qui ne correspondent pas à vos besoins</p>
               </div>
               <a class="btn btn-primary u-btn-primary u-btn-wide u-btn-pill transition-3d-hover" href="login-simple.html">Get Started</a>
             </div>
-            <!-- End Slide #2 -->
           </div>
         </div>
+      </div>
     </div>
     <!-- SVG Background -->
-    <figure class="position-absolute-bottom-0">
+    <figure class="position-absolute-bottom-0" style="margin-bottom: 0;">
       <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="140px" viewBox="20 -20 300 100">
         <path class="u-fill-white" opacity="0.4" d="M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729
     c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z" />
@@ -55,7 +65,7 @@
   </div>
   <!-- End Hero Section -->
   <!-- Icon Blocks Section -->
-  <div class="container u-space-3">
+  <div class="container u-space-2">
       <div class="row">
         <div class="col-md-4 mb-7">
           <!-- Icon Blocks -->
@@ -131,7 +141,7 @@
   </div>
   <!-- End Icon Blocks Section -->
   <!-- Process Section -->
-  <div id="featuresSection" class="container text-center u-space-3">
+  <div id="featuresSection" class="container text-center u-space-2">
     <!-- Title -->
     <div class="w-md-80 w-lg-50 mx-auto mb-9">
       <h2 class="text-primary">Laissez-leur <span class="font-weight-bold">un bon souvenir</span></h2>
@@ -232,7 +242,7 @@
     </div>
   </div>
   <!-- End Process Section -->
-  <!-- ========== BUTTON ========== -->
+  <!-- Button -->
   <div class="position-relative u-gradient-half-primary-v5 text-white text-center">
     <div class="container u-space-3-top u-space-1-bottom">
       <div class="container u-space-1">
@@ -245,13 +255,13 @@
           <path class="u-fill-primary" opacity="0.3" d="M1607,81.8c0,0-274.6,48.2-560.1,19.9c-494.8-49.2-725.1,2.7-938.5,6.6C-203,114-339.2,85.6-339.2,85.6V9.4l1946.2,0V81.8z"/>
           <path class="u-fill-primary" opacity="0.3" d="M2033.1,80.8c0,0-274.6,48.2-560.1,19.9c-494.8-49.2-725.1,2.7-938.5,6.6C223.1,113,86.9,84.6,86.9,84.6V8.5h1946.2V80.8z"/>
           <path class="u-fill-white" opacity="0" d="M1526.9,5.6c0,0-309,96.5-698.5,96.5C406.8,102.1,201.4,7,201.4,7V1.8l1332,0L1526.9,5.6z"/>
-          <path class="u-fill-white" d="M2026.7,55.1c0,0-358.4,63.9-770,39c-523.7-31.8-712.6-8.6-938.5,6.6C-21.5,123.7-347.7,49-347.7,49l-8.5-51.3l2380.8,4.1L2026.7,55.1z" style="fill: #F8FAFD;"/>
+          <path class="u-fill-white" d="M2026.7,55.1c0,0-358.4,63.9-770,39c-523.7-31.8-712.6-8.6-938.5,6.6C-21.5,123.7-347.7,49-347.7,49l-8.5-51.3l2380.8,4.1L2026.7,55.1z"/>
         </svg>
       </figure>
       <!-- End SVG Background Section -->
     </div>
   </div>
-  <!-- ========== END BUTTON ========== -->
+  <!-- End Button -->
   <!-- CTA Section -->
   <%# <div class="bg-primary text-white text-center">
     <div class="container u-space-1">
@@ -336,3 +346,4 @@
     </div>
   </div>
   <!-- End Subscribe Section -->
+</main>
