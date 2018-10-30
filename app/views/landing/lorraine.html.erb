@@ -5,7 +5,8 @@
     <div class="container">
       <div class="align-items-center u-space-2-top text-center">
         <a class="u-header__navbar-brand" href="../home/index.html" aria-label="Front">
-          <img src="../../assets/svg/logos/logo.svg" alt="Logo">
+          <%= image_tag asset_pack_path('init/bootstrap/theme/svg/logos/logo.svg') %>
+          <img src="frontend/init/svg/logos/logo.svg" alt="Logo">
         </a>
       </div>
     </div>
@@ -13,7 +14,7 @@
   <!-- End Logo -->
   <!-- Hero Section -->
   <div class="position-relative u-bg-light-blue-50">
-    <div class="u-bg-img-hero" style="background-image: url(../../assets/img/bg-shapes/bg3.png);">
+    <div class="u-bg-img-hero" style="background-image: url(<%= asset_pack_path('init/bootstrap/theme/img/bg-shapes/bg3.png') %>);">
       <div class="container">
         <div class="align-items-center u-space-3">
           <div>
