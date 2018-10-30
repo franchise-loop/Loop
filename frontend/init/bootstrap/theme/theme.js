@@ -58,3 +58,4 @@ import "./vendor/jquery.countdown.min.js"
 #* ------------------------------------*/
 import "./svg/logos/logo.svg"
 import "./img/bg-shapes/bg3.png"
+import "./img/1920x800/img12.jpg"
