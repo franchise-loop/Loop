@@ -1,1 +1,5 @@
 /* Lorraine */
+.form__btn--rounded {
+  border-top-right-radius: 6.1875rem !important;
+  border-bottom-right-radius: 6.1875rem !important;
+}
