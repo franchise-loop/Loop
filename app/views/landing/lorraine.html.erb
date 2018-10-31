@@ -6,7 +6,7 @@
       <div class="align-items-center u-space-2-top text-center">
         <a class="u-header__navbar-brand" href="../home/index.html" aria-label="Front">
           <%= image_tag asset_pack_path('init/bootstrap/theme/svg/logos/logo.svg') %>
-          <img src="frontend/init/svg/logos/logo.svg" alt="Logo">
+          <%# <img src="frontend/init/svg/logos/logo.svg" alt="Logo"> %>
         </a>
       </div>
     </div>
@@ -79,7 +79,7 @@
           <!-- End Icon Blocks -->
         </div>
       </div>
-      <img class="img-fluid d-none d-md-block w-75 mx-auto mb-7" src="../../assets/svg/pointers/svg-pointer1.svg" alt="SVG Arrow">
+      <%= image_tag asset_pack_path('init/bootstrap/theme/svg/pointers/svg-pointer1.svg'), :class => "img-fluid d-none d-md-block w-75 mx-auto mb-7", :alt => "SVG Arrow" %>
       <!-- Mockup Browser -->
       <div class="u-browser-v1 mx-auto mb-4">
         <!-- SVG Background Shape -->
