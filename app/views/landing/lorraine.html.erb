@@ -5,7 +5,7 @@
     <div class="container">
       <div class="align-items-center u-space-2-top text-center">
         <a class="u-header__navbar-brand" href="../home/index.html" aria-label="Front">
-          <%= image_tag asset_pack_path('init/bootstrap/theme/svg/logos/logo.svg') %>
+          <%= image_tag asset_pack_path('init/bootstrap/theme/svg/logos/logo.svg'), :alt => "Logo" %>
           <%# <img src="frontend/init/svg/logos/logo.svg" alt="Logo"> %>
         </a>
       </div>
@@ -103,7 +103,8 @@
                 <use xlink:href="#browserV1_1" style="overflow:visible;"/>
               </clipPath>
               <!-- Apply your (855px width to 655px height) image here -->
-              <image style="overflow:visible;clip-path:url(#browserV1_2);" width="855" height="655" xlink:href="../../assets/img/855x665/img1.jpg" transform="matrix(1 0 0 1.0075 0 0)"></image>
+              <image style="overflow:visible;clip-path:url(#browserV1_2);" width="855" height="655" xlink:href="<%= asset_pack_path('init/bootstrap/theme/img/855x665/img1.jpg') %>" transform="matrix(1 0 0 1.0075 0 0)"></image>
+              <%# <image style="overflow:visible;clip-path:url(#browserV1_2);" width="855" height="655" xlink:href="../../assets/img/855x665/img1.jpg" transform="matrix(1 0 0 1.0075 0 0)"></image> %>
               <use xlink:href="#browserV1_1" class="u-fill-none u-stroke-white" stroke-width="10" stroke-miterlimit="10" style="overflow:visible;"/>
             </g>
             <g>
@@ -279,7 +280,7 @@
                     <!-- Author -->
                     <div class="media">
                       <div class="d-flex mr-3">
-                        <img class="img-fluid u-avatar rounded-circle" src="../../assets/img/100x100/img1.jpg" alt="Image Description">
+                        <img class="img-fluid u-avatar rounded-circle" src="<%= asset_pack_path('init/bootstrap/theme/img/100x100/img1.jpg') %>" alt="Image Description">
                       </div>
                       <div class="media-body">
                         <h4 class="h6 mb-0">Maria Muszynska</h4>
