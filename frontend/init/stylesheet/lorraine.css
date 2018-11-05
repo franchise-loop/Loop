@@ -19,6 +19,8 @@
   .footer-row__right { justify-content: flex-end; }
 }
 .footer-row__center { justify-content: center; }
+
+.footer-row__left { justify-content: center; }
 @media (min-width: 576px) {
-  .footer-row__center { justify-content: unset; }
+  .footer-row__left { justify-content: flex-start; }
 }
