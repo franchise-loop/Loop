@@ -2,6 +2,10 @@
 .brand__logo {
   width: 70%;
 }
+.hero__title {
+  line-height: 4.7rem;
+  margin-bottom: 2rem;
+}
 .quote__img {
   width: 100%;
   height: auto;
