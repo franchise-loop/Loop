@@ -14,4 +14,11 @@
   border-top-right-radius: 6.1875rem !important;
   border-bottom-right-radius: 6.1875rem !important;
 }
+.footer-row__right { justify-content: center; }
+@media (min-width: 576px) {
+  .footer-row__right { justify-content: flex-end; }
+}
 .footer-row__center { justify-content: center; }
+@media (min-width: 576px) {
+  .footer-row__center { justify-content: unset; }
+}
