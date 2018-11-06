@@ -14,6 +14,32 @@
   border-top-right-radius: 6.1875rem !important;
   border-bottom-right-radius: 6.1875rem !important;
 }
+
+#mc_embed_signup div.mce_inline_error {
+  width: 100% !important;
+  margin: 0.5rem 0 1rem !important;
+  padding: 0.5rem 1rem !important;
+  font-size: 0.8rem !important;
+  color: #de4437 !important;
+  background: transparent !important;
+  font-weight: 400 !important;
+  z-index: 1 !important;
+}
+#mc_embed_signup input.mce_inline_error {
+  border-color: #de4437 !important;
+  border-right: solid 1px;
+}
+.response {
+  width: 100%;
+  margin: 1.2rem auto 1.2rem;
+  padding: 0 1rem;
+  font-size: 0.9rem;
+  color: #33C9A6;
+  background: transparent;
+  font-weight: 400;
+  z-index: 1;
+}
+
 .footer-row__right { justify-content: center; }
 @media (min-width: 576px) {
   .footer-row__right { justify-content: flex-end; }

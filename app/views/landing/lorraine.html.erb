@@ -313,18 +313,45 @@
       <!-- End Title -->
       <!-- Input -->
       <div class="w-md-50 w-lg-40 mx-auto">
-        <form class="js-validate js-form-message">
+
+        <!-- Begin Mailchimp Signup Form -->
+        <div id="mc_embed_signup">
+        <form action="https://franchise-loop.us19.list-manage.com/subscribe/post?u=a6c8ec165c27c088d63281687&amp;id=ac6d940eb7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div class="mc-field-group">
+            <div class="js-focus-state input-group input-group-lg u-form u-form--lg u-form--pill u-form--no-brd u-form--no-addon-brd">
+              <input type="email" value="" name="EMAIL" class="form-control u-form__input required email" id="mce-EMAIL" required
+                      placeholder="Insérez votre e-mail"
+                      aria-label="Email address">
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;"><input aria-hidden="true" type="text" name="b_a6c8ec165c27c088d63281687_ac6d940eb7" tabindex="-1" value=""></div>
+              <span class="clear input-group-append u-form__append">
+                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn text-primary u-btn-white form__btn--rounded">
+                  <span class="fas fa-paper-plane"></span>
+                </button>
+              </span>
+            </div>
+          </div>
+        	<div id="mce-responses" class="clear">
+        		<div class="response" id="mce-error-response" style="display:none"></div>
+        		<div class="response" id="mce-success-response" style="display:none"></div>
+        	</div>
+        </form>
+        </div>
+        <!--End mc_embed_signup-->
+
+        <%# <form class="js-validate js-form-message">
           <div class="js-focus-state input-group input-group-lg u-form u-form--lg u-form--pill u-form--no-brd u-form--no-addon-brd">
             <input type="email" class="form-control u-form__input" name="email" required
-                   placeholder="Votre adresse email"
-                   aria-label="Votre adresse email">
-            <span class="u-form__append input-group-append">
+                   placeholder="Enter your email address"
+                   aria-label="Enter your email address">
+            <span class="input-group-append u-form__append">
               <button type="submit" class="btn text-primary u-btn-white form__btn--rounded">
                 <span class="fas fa-paper-plane"></span>
               </button>
             </span>
           </div>
-        </form>
+        </form> %>
+
       </div>
       <!-- End Input -->
     </div>
@@ -340,65 +367,66 @@
   </figure>
   <!-- End SVG Shape -->
 </main>
+
 <!-- ========== FOOTER ========== -->
-  <footer class="container u-space-2">
-    <%# <hr class="my-7"> %>
-    <div class="row align-items-md-center">
-      <div class="col-md-4 mb-4 mb-md-0">
-        <div class="d-flex align-items-center footer-row__left">
-          <!-- Logo -->
-          <a class="mr-3" href="index.html" aria-label="Front">
-            <%= image_tag asset_pack_path('init/bootstrap/theme/svg/logos/loop.svg'), :alt => "Logo", :style => "width: 40px;" %>
-            <%# <img src="../../assets/svg/logos/logo-short.svg" alt="Logo" style="width: 40px;"> %>
-          </a>
-          <!-- End Logo -->
-
-          <p class="small mb-0">&copy; 2018 Franchise SAS<br>Tous droits réservés</p>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-md-4 mb-4 mb-md-0">
-        <!-- List -->
-        <ul class="list-inline text-md-center u-list d-flex footer-row__center">
-          <li class="list-inline-item u-list__item">
-            <a class="u-list__link" href="">Contact</a>
-          </li>
-          <li class="list-inline-item u-list__item">
-            <a class="u-list__link" href="">Mentions légales</a>
-          </li>
-          <%# <li class="list-inline-item u-list__item">
-            <a class="u-list__link" href="../pages/privacy.html">Privacy</a>
-          </li> %>
-        </ul>
-        <!-- End List -->
-      </div>
-
-      <div class="col-sm-6 col-md-4 mb-0 mb-md-0">
-        <!-- Social Networks -->
-        <ul class="list-inline text-sm-right mb-0 d-flex footer-row__right">
-          <li class="list-inline-item">
-            <a class="u-bg-transparent u-icon u-icon--sm u-icon-secondary--air rounded-circle" href="#">
-              <span class="fab fa-facebook-f u-icon__inner"></span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="u-bg-transparent u-icon u-icon--sm u-icon-secondary--air rounded-circle" href="#">
-              <span class="fab fa-google u-icon__inner"></span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="u-bg-transparent u-icon u-icon--sm u-icon-secondary--air rounded-circle" href="#">
-              <span class="fab fa-twitter u-icon__inner"></span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="u-bg-transparent u-icon u-icon--sm u-icon-secondary--air rounded-circle" href="#">
-              <span class="fab fa-github u-icon__inner"></span>
-            </a>
-          </li>
-        </ul>
-        <!-- End Social Networks -->
+<footer class="container u-space-2">
+  <%# <hr class="my-7"> %>
+  <div class="row align-items-md-center">
+    <div class="col-md-4 mb-4 mb-md-0">
+      <div class="d-flex align-items-center footer-row__left">
+        <!-- Logo -->
+        <a class="mr-3" href="index.html" aria-label="Front">
+          <%= image_tag asset_pack_path('init/bootstrap/theme/svg/logos/loop.svg'), :alt => "Logo", :style => "width: 40px;" %>
+          <%# <img src="../../assets/svg/logos/logo-short.svg" alt="Logo" style="width: 40px;"> %>
+        </a>
+        <!-- End Logo -->
+        <p class="small mb-0">&copy; 2018 Franchise SAS<br>Tous droits réservés</p>
       </div>
     </div>
-  </footer>
-  <!-- ========== END FOOTER ========== -->
+    <div class="col-sm-6 col-md-4 mb-4 mb-md-0">
+      <!-- List -->
+      <ul class="list-inline text-md-center u-list d-flex footer-row__center">
+        <li class="list-inline-item u-list__item">
+          <a class="u-list__link" href="">Contact</a>
+        </li>
+        <li class="list-inline-item u-list__item">
+          <a class="u-list__link" href="">Mentions légales</a>
+        </li>
+        <%# <li class="list-inline-item u-list__item">
+          <a class="u-list__link" href="../pages/privacy.html">Privacy</a>
+        </li> %>
+      </ul>
+      <!-- End List -->
+    </div>
+    <div class="col-sm-6 col-md-4 mb-0 mb-md-0">
+      <!-- Social Networks -->
+      <ul class="list-inline text-sm-right mb-0 d-flex footer-row__right">
+        <li class="list-inline-item">
+          <a class="u-bg-transparent u-icon u-icon--sm u-icon-secondary--air rounded-circle" href="#">
+            <span class="fab fa-facebook-f u-icon__inner"></span>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="u-bg-transparent u-icon u-icon--sm u-icon-secondary--air rounded-circle" href="#">
+            <span class="fab fa-google u-icon__inner"></span>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="u-bg-transparent u-icon u-icon--sm u-icon-secondary--air rounded-circle" href="#">
+            <span class="fab fa-twitter u-icon__inner"></span>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="u-bg-transparent u-icon u-icon--sm u-icon-secondary--air rounded-circle" href="#">
+            <span class="fab fa-github u-icon__inner"></span>
+          </a>
+        </li>
+      </ul>
+      <!-- End Social Networks -->
+    </div>
+  </div>
+</footer>
+<!-- ========== END FOOTER ========== -->
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>
+  (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
