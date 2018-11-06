@@ -24,7 +24,7 @@
   background: rgba(255, 255, 255, 0.8) !important;
   font-weight: 400 !important;
   z-index: 1 !important;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
   box-shadow: 0 0 25px rgba(119, 131, 143, .1);
 }
 #mc_embed_signup input.mce_inline_error {
@@ -40,7 +40,7 @@
   background: rgba(255, 255, 255, 0.8);
   font-weight: 400;
   z-index: 1;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
   box-shadow: 0 0 25px rgba(119, 131, 143, .1);
 }
 
