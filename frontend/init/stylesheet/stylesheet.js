@@ -1,2 +1,1 @@
-import "./lorraine.css";
-import "./bishal.css";
+import "./landing.css";
