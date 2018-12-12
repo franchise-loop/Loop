@@ -7,6 +7,16 @@
   margin-bottom: 2rem;
 }
 
+.form-light {
+  background-color: #ffffff1f;
+  color: #fff;
+}
+
+.form-light:focus {
+  background-color: #ffffff1f;
+  color: #fff;
+}
+
 .quote__img {
   width: 100%;
   height: auto;
