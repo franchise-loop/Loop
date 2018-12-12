@@ -228,10 +228,64 @@
   <!-- End Process Section -->
   <!-- Start Now Button -->
   <div class="position-relative u-gradient-half-primary-v5 text-white text-center">
-    <div class="container u-space-3-top u-space-1-bottom">
-      <div class="container u-space-1">
+    <div class="container u-space-3-top u-space-2-bottom">
+      <%# <div class="container u-space-1">
         <a class="btn btn-sm u-btn-white transition-3d-hover ml-2" href="">Commencez dès aujourd’hui</a>
+      </div> %>
+
+      <div class="mt-4 mb-7">
+      <!-- Info -->
+        <h2 class="text-white font-weight-normal">Soyez contactés par notre équipe</h2>
       </div>
+      <!-- End Info -->
+      <!-- Form -->
+      <form class="js-validate">
+        <div class="row mx-gutters-2">
+          <div class="col-sm-6 col-lg-3 mb-3">
+            <!-- Input -->
+            <div class="js-form-message">
+              <div class="js-focus-state input-group u-form u-form--no-brd">
+                <input type="text" class="form-control u-form__input" name="username" required
+                       placeholder="Name"
+                       aria-label="Name"
+                       data-msg="Name must contain only letters.">
+              </div>
+            </div>
+            <!-- End Input -->
+          </div>
+          <div class="col-sm-6 col-lg-3 mb-3">
+            <!-- Input -->
+            <div class="js-form-message">
+              <div class="js-focus-state input-group u-form u-form--no-brd">
+                <input type="email" class="form-control u-form__input" name="email" required
+                       placeholder="Email"
+                       aria-label="Email"
+                       data-msg="Please enter a valid email address.">
+              </div>
+            </div>
+            <!-- End Input -->
+          </div>
+
+          <div class="col-sm-6 col-lg-3 mb-3">
+            <!-- Input -->
+            <div class="js-form-message">
+              <div class="js-focus-state input-group u-form u-form--no-brd">
+                <input type="text" class="form-control u-form__input" name="phone" required
+                       placeholder="Phone"
+                       aria-label="Phone"
+                       data-msg="Phone number must contain only digits.">
+              </div>
+            </div>
+            <!-- End Input -->
+          </div>
+
+          <div class="col-sm-6 col-lg-3 mb-3">
+            <button type="submit" class="btn btn-block u-btn-white transition-3d-hover font-size-14">Envoyer</button>
+          </div>
+        </div>
+        <p class="small u-text-light">* By clicking "Get Started", I agree to the <span class="pl-1"><a class="u-link-light" href="../pages/terms.html">Terms and Conditions</a></span></p>
+      </form>
+      <!-- End Form -->
       <!-- SVG Background -->
       <figure class="position-absolute-top-0" style="transform: translateY(-1em);">
         <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
