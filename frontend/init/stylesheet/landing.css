@@ -41,11 +41,9 @@
 
 .form__btn--custom {
   line-height: 1.2rem;
-
-  /* padding: 0.75rem; */
   width: fit-content;
   height: calc(2.5625rem + 2px);
-  padding: 0.625rem 1.125rem;
+  padding: 0.625rem;
 }
 
 @media (min-width: 576px) {
