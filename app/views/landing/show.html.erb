@@ -238,17 +238,136 @@
         <h2 class="text-white font-weight-normal">Soyez contactés par notre équipe</h2>
       </div>
       <!-- End Info -->
-      <!-- Form -->
+
+      <!-- Apply Form -->
       <form class="js-validate">
+        <div class="row">
+          <div class="col-sm-6 col-md-3 mb-5 form__col">
+            <!-- Input -->
+            <div class="js-form-message">
+              <div class="js-focus-state input-group u-form u-form--no-brd">
+                <input class="form-control u-form__input form-light" type="text" required
+                       placeholder="Prénom"
+                       aria-label="First Name"
+                       data-msg="Veuillez renseigner votre prénom"
+                       data-error-class="u-has-error"
+                       data-success-class="u-has-success">
+              </div>
+            </div>
+            <!-- End Input -->
+          </div>
+          <div class="col-sm-6 col-md-3 mb-5 form__col">
+            <!-- Input -->
+            <div class="js-form-message">
+              <div class="js-focus-state input-group u-form u-form--no-brd">
+                <input class="form-control u-form__input form-light" type="text" required
+                       placeholder="Nom"
+                       aria-label="Last Name"
+                       data-msg="Veuillez renseigner votre nom"
+                       data-error-class="u-has-error"
+                       data-success-class="u-has-success">
+              </div>
+            </div>
+            <!-- End Input -->
+          </div>
+          <div class="col-sm-6 col-md-3 mb-5 form__col">
+            <!-- Input -->
+            <div class="js-form-message">
+              <div class="js-focus-state input-group u-form u-form--no-brd">
+                <input class="form-control u-form__input form-light" type="email" required
+                       placeholder="Email"
+                       aria-label="Email"
+                       data-msg="Veuillez renseigner une adresse email valide."
+                       data-error-class="u-has-error"
+                       data-success-class="u-has-success">
+              </div>
+            </div>
+            <!-- End Input -->
+          </div>
+          <div class="col-sm-6 col-md-2 mb-5 form__col">
+            <!-- Input -->
+            <div class="js-form-message">
+              <div class="js-focus-state input-group u-form u-form--no-brd">
+                <input class="form-control u-form__input form-light" type="text" required
+                       placeholder="Téléphone"
+                       aria-label="Phone"
+                       data-msg="Veuillez renseigner un numéro de téléphone valide."
+                       data-error-class="u-has-error"
+                       data-success-class="u-has-success">
+              </div>
+            </div>
+            <!-- End Input -->
+          </div>
+          <%# <div class="col-sm-6 mb-5">
+            <!-- Title -->
+            <label class="h6 d-block text-white">Resume/CV</label>
+            <!-- End Title -->
+            <!-- Custom File Input -->
+            <div class="u-file-attachment-v1 mb-0">
+              <input id="fileAttachment1" name="file-attachment" type="file" class="u-file-attachment-v1__label">
+              <label class="u-file-attachment-v1__label" for="fileAttachment1">Attach your file</label>
+            </div>
+            <!-- End Custom File Input -->
+          </div> %>
+          <%# <div class="col-sm-6 mb-5">
+            <!-- Title -->
+            <label class="h6 d-block text-white">Cover letter</label>
+            <!-- End Title -->
+            <!-- Custom File Input -->
+            <div class="u-file-attachment-v1 mb-0">
+              <input id="fileAttachment2" name="file-attachment" type="file" class="u-file-attachment-v1__label">
+              <label class="u-file-attachment-v1__label" for="fileAttachment2">Attach your file</label>
+            </div>
+            <!-- End Custom File Input -->
+          </div> %>
+          <%# <div class="col-sm-6 mb-5">
+            <!-- Input -->
+            <div class="js-form-message">
+              <div class="js-focus-state input-group u-form u-form--no-brd">
+                <textarea class="form-control u-form__input" rows="4" required
+                          placeholder="How'd you hear about Front?"
+                          aria-label="How'd you hear about Front?"
+                          data-msg="Please enter an answer."
+                          data-error-class="u-has-error"
+                          data-success-class="u-has-success"></textarea>
+              </div>
+            </div>
+            <!-- End Input -->
+          </div> %>
+          <div class="col-sm-12 col-md-1 text-sm-center mb-5 form__col">
+            <button type="submit" class="btn text-primary u-btn-white transition-3d-hover form__btn--custom">
+              <span class="fas fa-paper-plane"></span>
+            </button>
+          </div>
+        </div>
+        <p class="small u-text-light">* En cliquant sur "Envoyer", j'accepte les <span class="pl-1"><a class="u-link-light" href="../pages/terms.html">Conditions générales d'utilisations</a></span></p>
+      </form>
+      <!-- End Apply Form -->
+
+
+      <!-- Form -->
+      <%# <form class="js-validate">
         <div class="row mx-gutters-2">
           <div class="col-sm-6 col-md-3 mb-3">
             <!-- Input -->
             <div class="js-form-message">
               <div class="js-focus-state input-group u-form u-form--no-brd">
                 <input type="text" class="form-control u-form__input form-light" name="username" required
-                       placeholder="Name"
-                       aria-label="Name"
-                       data-msg="Name must contain only letters.">
+                       placeholder="Prénom"
+                       aria-label="Prénom"
+                       data-msg="Ce champs ne doit contenir que des lettres.">
+              </div>
+            </div>
+            <!-- End Input -->
+          </div>
+          <div class="col-sm-6 col-md-3 mb-3">
+            <!-- Input -->
+            <div class="js-form-message">
+              <div class="js-focus-state input-group u-form u-form--no-brd">
+                <input type="text" class="form-control u-form__input form-light" name="username" required
+                       placeholder="Nom"
+                       aria-label="Nom"
+                       data-msg="Ce champs ne doit contenir que des lettres.">
               </div>
             </div>
             <!-- End Input -->
@@ -260,7 +379,7 @@
                 <input type="email" class="form-control u-form__input form-light" name="email" required
                        placeholder="Email"
                        aria-label="Email"
-                       data-msg="Please enter a valid email address.">
+                       data-msg="Veuillez renseigner une adresse email valide.">
               </div>
             </div>
             <!-- End Input -->
@@ -271,9 +390,9 @@
             <div class="js-form-message">
               <div class="js-focus-state input-group u-form u-form--no-brd">
                 <input type="text" class="form-control u-form__input form-light" name="phone" required
-                       placeholder="Phone"
-                       aria-label="Phone"
-                       data-msg="Phone number must contain only digits.">
+                       placeholder="Téléphone"
+                       aria-label="Téléphone"
+                       data-msg="Ce champs ne doit contenir que des chiffres.">
               </div>
             </div>
             <!-- End Input -->
@@ -283,8 +402,8 @@
             <button type="submit" class="btn btn-block u-btn-white transition-3d-hover font-size-14">Envoyer</button>
           </div>
         </div>
-        <p class="small u-text-light">* By clicking "Get Started", I agree to the <span class="pl-1"><a class="u-link-light" href="../pages/terms.html">Terms and Conditions</a></span></p>
-      </form>
+        <p class="small u-text-light">* En cliquant sur "Envoyer", j'accepte les <span class="pl-1"><a class="u-link-light" href="../pages/terms.html">Conditions générales d'utilisations</a></span></p>
+      </form> %>
       <!-- End Form -->
       <!-- SVG Background -->
       <figure class="position-absolute-top-0" style="transform: translateY(-1em);">
