@@ -17,28 +17,28 @@
 /* Input form transparency */
 
 .form-light {
-  background-color: #ffffff1f;
+  background-color: hsla(0, 100%, 100%, 0.12);
   color: #fff;
 }
 
 .form-light::placeholder {
-  color: #ffffff1f;
+  color: hsla(0, 0%, 100%, 0.7);
 }
 
 .form-light::-webkit-placeholder {
-  color: #ffffff1f;
+  color: hsla(0, 0%, 100%, 0.7);
 }
 
 .form-light:-ms-input-placeholder {
-  color: #ffffff1f;
+  color: hsla(0, 0%, 100%, 0.7);
 }
 
 .form-light::-moz-placeholder {
-  color: #ffffff1f;
+  color: hsla(0, 0%, 100%, 0.7);
 }
 
 .form-light:focus {
-  background-color: #ffffff1f;
+  background-color: hsla(0, 100%, 100%, 0.12);
   color: #fff;
 }
 
