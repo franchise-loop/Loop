@@ -7,31 +7,33 @@
   margin-bottom: 2rem;
 }
 
+/* START NOW FORM */
+
+/* Padding between input */
 .form__col {
   padding: 0 0.4rem;
 }
 
+/* Input form transparency */
 .form-light {
   background-color: #ffffff1f;
   color: #fff;
-
-  /* height: auto; */
 }
 
 .form-light::placeholder {
-  color: hsla(0, 0%, 100%, 0.7);
+  color: #ffffff1f;
 }
 
 .form-light::-webkit-placeholder {
-  color: hsla(0, 0%, 100%, 0.7);
+  color: #ffffff1f;
 }
 
 .form-light:-ms-input-placeholder {
-  color: hsla(0, 0%, 100%, 0.7);
+  color: #ffffff1f;
 }
 
 .form-light::-moz-placeholder {
-  color: hsla(0, 0%, 100%, 0.7);
+  color: #ffffff1f;
 }
 
 .form-light:focus {
@@ -62,6 +64,8 @@
   width: 100%;
   height: auto;
 }
+
+/* SUBSCRIBE FORM */
 
 .form__btn--rounded {
   border-top-right-radius: 6.1875rem !important;
@@ -103,7 +107,7 @@
   justify-content: center;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .footer-row__right {
     justify-content: flex-end;
   }
@@ -129,7 +133,7 @@
   justify-content: center;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .footer-row__left {
     justify-content: flex-start;
   }
