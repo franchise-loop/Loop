@@ -240,7 +240,7 @@
       <!-- End Info -->
 
       <!-- Apply Form -->
-      <form class="js-validate">
+      <form class="js-validate" action="" method="">
         <div class="row">
           <div class="col-sm-6 col-md-3 mb-3 form__col">
             <!-- Input -->
@@ -468,20 +468,18 @@
 
 <!-- ========== FOOTER ========== -->
 <footer class="container u-space-2">
-  <%# <hr class="my-7"> %>
   <div class="row align-items-md-center">
-    <div class="col-md-4 mb-4 mb-md-0">
+    <div class="col-md-6 mb-4 mb-md-0">
       <div class="d-flex align-items-center footer-row__left">
         <!-- Logo -->
         <a class="mr-3" href="index.html" aria-label="Front">
           <%= image_tag asset_pack_path('init/bootstrap/theme/svg/logos/loop.svg'), :alt => "Logo", :style => "width: 40px;" %>
-          <%# <img src="../../assets/svg/logos/logo-short.svg" alt="Logo" style="width: 40px;"> %>
         </a>
         <!-- End Logo -->
-        <p class="small mb-0">inSiti &copy; 2019 | groupe<br>Tous droits réservés</p>
+        <p class="small mb-0">inSiti &copy; 2019 | Groupe Tous droits réservés</p>
       </div>
     </div>
-    <div class="col-sm-6 col-md-4 mb-4 mb-md-0">
+    <%# <div class="col-sm-6 col-md-4 mb-4 mb-md-0">
       <!-- List -->
       <ul class="list-inline text-md-center u-list d-flex footer-row__center">
         <li class="list-inline-item u-list__item">
@@ -489,14 +487,14 @@
         </li>
         <li class="list-inline-item u-list__item">
           <a class="u-list__link" href="">Mentions légales</a>
-        </li>
+        </li> %>
         <%# <li class="list-inline-item u-list__item">
           <a class="u-list__link" href="../pages/privacy.html">Privacy</a>
         </li> %>
-      </ul>
+      <%# </ul> %>
       <!-- End List -->
-    </div>
-    <div class="col-sm-6 col-md-4 mb-0 mb-md-0">
+    <%# </div> %>
+    <div class="col-md-6 mb-0">
       <!-- Social Networks -->
       <ul class="list-inline text-sm-right mb-0 d-flex footer-row__right">
         <li class="list-inline-item">
